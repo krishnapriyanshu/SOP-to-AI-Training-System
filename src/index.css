@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#FAFAFA] text-slate-900 antialiased font-sans;
+  }
+}
+
+@layer utilities {
+  .bg-dotted {
+    background-image: radial-gradient(circle at 12px 12px, #E5E7EB 2px, transparent 0);
+    background-size: 24px 24px;
+  }
+}
